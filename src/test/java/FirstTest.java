@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -75,7 +76,39 @@ public class FirstTest {
     public void thirdTest(){
 
         driver.findElement(By.xpath("//*[@href='#visa']")).click();
+        driver.findElement(By.xpath("//*[@class='chosen-single']/span[contains(text(),'Antigua and Barbuda')]")).click();
+        driver.switchTo().activeElement().sendKeys("Pakistan");
+        driver.findElement(By.xpath("//*[@class='active-result highlighted']")).click();
 
+        driver.findElement(By.xpath("//*[@class='chosen-single']/span[contains(text(),'United Arab Emirates')]")).click();
+        driver.switchTo().activeElement().sendKeys("Turkey");
+        driver.findElement(By.xpath("//*[@class='active-result highlighted']")).click();
+
+        driver.findElement(By.xpath("//*[@placeholder = 'Date']")).click();
+        driver.switchTo().activeElement().sendKeys("05/05/2020");
+
+        driver.findElement(By.xpath("//div[@class='hero-form-absolute']")).click();
+        driver.findElement(By.xpath("//*[@class='col-md-2 col-xs-12']/button[contains(text(),'Submit')]")).click();
+
+        driver.findElement(By.xpath("//*[@class='form-group']/label/span[contains(text(),'First Name')]")).click();
+        driver.switchTo().activeElement().sendKeys("Volodya");
+
+        driver.findElement(By.xpath("//*[@class='col-md-6 col-12']/label/span[contains(text(),'Last Name')]")).click();
+        driver.switchTo().activeElement().sendKeys("Voronovsky");
+
+        driver.findElement(By.xpath("//span[contains(text(),'Email ')]")).click();
+        driver.switchTo().activeElement().sendKeys("danik.voronovsky@gmail.com");
+
+        driver.findElement(By.xpath("//span[contains(text(),'Confirm Email')]")).click();
+        driver.switchTo().activeElement().sendKeys("danik.voronovsky@gmail.com");
+
+        driver.findElement(By.xpath("//*[@id='sub']")).click();
+        driver.switchTo().activeElement().sendKeys("380638480806");
+
+        driver.findElement(By.xpath("//*[@id='sub']")).click();
+
+        String actual = driver.findElement(By.xpath("//*[@class='wow fadeIn']/strong")).getText();
+        Assert.assertEquals(actual,"Visa Submitted");
 
     }
 
@@ -88,18 +121,22 @@ public class FirstTest {
     @Test
     public void fifthTest(){
 
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//a[@href='https://www.facebook.com/travelbusiness']")).click();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
     }
 
     @Test
     public void sixthTest(){
 
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//a[@href='https://twitter.com/phptravels']")).click();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
     }
 
-    @BeforeClass
+    @AfterClass
     public void close() {
         driver.quit();
     }

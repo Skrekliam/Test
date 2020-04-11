@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20d535dd-8cad-4a65-b168-50fb9db69831" name="Default Changelist" comment="" />
+    <list default="true" id="20d535dd-8cad-4a65-b168-50fb9db69831" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="97" column="92" selection-start-line="97" selection-start-column="92" selection-end-line="97" selection-end-column="92" />
+            <state relative-caret-position="363">
+              <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3256#3257#0" expanded="true" />
@@ -43,6 +46,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,6 +82,7 @@
     <option name="width" value="1370" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -115,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586560621673" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586606808270" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -133,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest.sixthTest">
+  <component name="RunManager" selected="TestNG.FirstTest.thirdTest">
     <configuration name="FirstTest.fifthTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="netphptravels" />
       <option name="PACKAGE_NAME" value="" />
@@ -146,11 +153,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.fourthTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="netphptravels" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="fourthTest" />
+      <option name="METHOD_NAME" value="firstTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +165,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.secondTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.fourthTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="netphptravels" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="secondTest" />
+      <option name="METHOD_NAME" value="fourthTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -196,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstTest.sixthTest" />
-        <item itemvalue="TestNG.FirstTest.fifthTest" />
-        <item itemvalue="TestNG.FirstTest.fourthTest" />
         <item itemvalue="TestNG.FirstTest.thirdTest" />
-        <item itemvalue="TestNG.FirstTest.secondTest" />
+        <item itemvalue="TestNG.FirstTest.fifthTest" />
+        <item itemvalue="TestNG.FirstTest.firstTest" />
+        <item itemvalue="TestNG.FirstTest.sixthTest" />
+        <item itemvalue="TestNG.FirstTest.fourthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,35 +225,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_firstTest - 2020.04.11 at 01h 45m 30s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2020.04.11 at 01h 50m 23s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2020.04.11 at 01h 52m 28s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_firstTest - 2020.04.11 at 01h 56m 43s.xml">
-      <configuration name="FirstTest.firstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_secondTest - 2020.04.11 at 01h 59m 54s.xml">
-      <configuration name="FirstTest.secondTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 02h 03m 30s.xml">
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 34m 14s.xml">
       <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 02h 04m 06s.xml">
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 36m 39s.xml">
       <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 02h 08m 37s.xml">
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 39m 09s.xml">
       <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_fourthTest - 2020.04.11 at 02h 11m 50s.xml">
-      <configuration name="FirstTest.fourthTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 41m 53s.xml">
+      <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_fifthTest - 2020.04.11 at 02h 12m 50s.xml">
-      <configuration name="FirstTest.fifthTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 44m 54s.xml">
+      <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 48m 53s.xml">
+      <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 52m 53s.xml">
+      <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 55m 20s.xml">
+      <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 14h 58m 44s.xml">
+      <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest_thirdTest - 2020.04.11 at 15h 01m 30s.xml">
+      <configuration name="FirstTest.thirdTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -261,7 +268,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -291,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="97" column="92" selection-start-line="97" selection-start-column="92" selection-end-line="97" selection-end-column="92" />
+        <state relative-caret-position="363">
+          <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3256#3257#0" expanded="true" />
